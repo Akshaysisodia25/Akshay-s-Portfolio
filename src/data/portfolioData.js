@@ -21,20 +21,20 @@ export const PERSONAL_INFO = {
 export const PROJECTS = [
   {
     number: "01",
-    title: "ZENITH",
-    category: "Collaborative Digital Workspace",
-    editorialQuote: "BUILDING A SPACE FOR PEOPLE TO BUILD THEMSELVES.",
-    description: "A collaborative online workspace designed to help users join virtual groups for studying, meditation, workouts, and goal-oriented activities. Features interactive community focus rooms, synchronized pomodoro intervals, and goal tracking.",
-    role: "DEVELOPER",
-    technologies: ["React", "JavaScript", "HTML5", "CSS3"],
-    image: "/assets/projects/zenith-home.png",
+    title: "AKSHAY SISODIA — PERSONAL PORTFOLIO",
+    category: "Cinematic Digital Experience & Portfolio",
+    editorialQuote: "ENGINEERING AT THE INTERSECTION OF CRAFTSMANSHIP, CODE, AND MOTION.",
+    description: "A cinematic, interactive personal portfolio designed and developed to showcase my software engineering skills, full-stack projects, technical experience, and problem-solving approach. Built with a modern React-based architecture featuring immersive scroll interactions, responsive design, smooth animations, and a premium visual experience.",
+    role: "CREATIVE DEVELOPER & ARCHITECT",
+    technologies: ["React", "Tailwind CSS", "Three.js", "Lenis", "Vite", "JavaScript"],
+    image: "/assets/projects/portfolio-home.png",
     year: "2026",
-    github: "https://github.com/Akshaysisodia25/Zenith",
-    demo: "https://zenith-tawny-six.vercel.app/",
+    github: "https://github.com/Akshaysisodia25/Akshay-s-Portfolio",
+    demo: null, // Deployed live URL will be connected upon hosting
     highlights: [
-      "Designed and implemented interactive community focus rooms with persistent state",
-      "Built clean, responsive user interfaces using modular React components and modern CSS",
-      "Integrated interval timers and productivity sprints to encourage peer-driven focus"
+      "Engineered custom Three.js WebGL kinetic turbine sculpture responding to mouse parallax",
+      "Integrated Lenis smooth momentum scrolling with dynamic context-aware magnetic cursor",
+      "Built fully decoupled, responsive React component architecture with zero template bloat"
     ]
   },
   {
@@ -60,6 +60,24 @@ export const PROJECTS = [
   },
   {
     number: "03",
+    title: "ZENITH",
+    category: "Collaborative Digital Workspace",
+    editorialQuote: "BUILDING A SPACE FOR PEOPLE TO BUILD THEMSELVES.",
+    description: "A collaborative online workspace designed to help users join virtual groups for studying, meditation, workouts, and goal-oriented activities. Features interactive community focus rooms, synchronized pomodoro intervals, and goal tracking.",
+    role: "DEVELOPER",
+    technologies: ["React", "JavaScript", "HTML5", "CSS3"],
+    image: "/assets/projects/zenith-home.png",
+    year: "2026",
+    github: "https://github.com/Akshaysisodia25/Zenith",
+    demo: "https://zenith-tawny-six.vercel.app/",
+    highlights: [
+      "Designed and implemented interactive community focus rooms with persistent state",
+      "Built clean, responsive user interfaces using modular React components and modern CSS",
+      "Integrated interval timers and productivity sprints to encourage peer-driven focus"
+    ]
+  },
+  {
+    number: "04",
     title: "AKSHARK",
     category: "Fitness E-Commerce Platform",
     editorialQuote: "ENGINEERED PERFORMANCE APPAREL & ATHLETIC ESSENTIALS.",
