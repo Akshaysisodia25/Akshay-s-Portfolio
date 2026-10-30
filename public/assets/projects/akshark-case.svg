@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="aksharkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070709"/>
+      <stop offset="50%" stop-color="#0f0f12"/>
+      <stop offset="100%" stop-color="#040405"/>
+    </linearGradient>
+    <linearGradient id="silverGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#71717a" stop-opacity="0.02"/>
+    </linearGradient>
+    <pattern id="diagGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 0 60 L 60 0 M 0 0 L 60 60" fill="none" stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#aksharkBg)"/>
+  <rect width="100%" height="100%" fill="url(#diagGrid)"/>
+
+  <!-- Radial lighting -->
+  <circle cx="600" cy="400" r="320" fill="url(#silverGlow)" filter="blur(80px)"/>
+
+  <!-- UI Editorial Presentation -->
+  <g transform="translate(180, 160)">
+    <rect width="840" height="480" rx="14" fill="#0b0b0e" stroke="#ffffff" stroke-width="1" stroke-opacity="0.15"/>
+    
+    <!-- Top Nav of E-commerce platform -->
+    <rect width="840" height="50" rx="14" fill="#121217"/>
+    <rect y="38" width="840" height="12" fill="#121217"/>
+    <text x="40" y="32" font-family="'Syne', sans-serif" font-weight="800" font-size="16" fill="#ffffff" letter-spacing="3">AKSHARK</text>
+    <text x="240" y="31" font-family="'Inter', sans-serif" font-size="12" fill="#9ca3af" letter-spacing="1">EQUIPMENT</text>
+    <text x="360" y="31" font-family="'Inter', sans-serif" font-size="12" fill="#9ca3af" letter-spacing="1">APPAREL</text>
+    <text x="460" y="31" font-family="'Inter', sans-serif" font-size="12" fill="#9ca3af" letter-spacing="1">SUPPLEMENTS</text>
+    <text x="590" y="31" font-family="'Inter', sans-serif" font-size="12" fill="#9ca3af" letter-spacing="1">ACCESSORIES</text>
+    <text x="770" y="31" font-family="'JetBrains Mono', monospace" font-size="12" fill="#ffffff">BAG (0)</text>
+
+    <!-- Hero banner inside store -->
+    <rect x="40" y="70" width="760" height="170" rx="8" fill="#16161c" stroke="#ffffff" stroke-width="1" stroke-opacity="0.05"/>
+    <text x="70" y="125" font-family="'Cinzel', Georgia, serif" font-weight="700" font-size="28" fill="#ffffff" letter-spacing="3">ENGINEERED PERFORMANCE</text>
+    <text x="70" y="155" font-family="'Inter', sans-serif" font-size="13" fill="#94a3b8">The unified fitness catalog — premium lifting belts, wraps, and training essentials.</text>
+    <rect x="70" y="175" width="130" height="32" rx="4" fill="#f8fafc"/>
+    <text x="96" y="196" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#09090b">EXPLORE GEAR</text>
+
+    <!-- Product Grid Items -->
+    <g transform="translate(40, 260)">
+      <!-- Item 1 -->
+      <rect width="235" height="180" rx="8" fill="#131317" stroke="#ffffff" stroke-width="1" stroke-opacity="0.07"/>
+      <circle cx="117" cy="65" r="35" fill="#202028"/>
+      <text x="117" y="72" font-family="'JetBrains Mono', monospace" font-size="20" fill="#94a3b8" text-anchor="middle">⚡</text>
+      <text x="20" y="130" font-family="'Syne', sans-serif" font-size="13" font-weight="600" fill="#ffffff">Titanium Lever Belt</text>
+      <text x="20" y="152" font-family="'JetBrains Mono', monospace" font-size="12" fill="#71717a">Heavy Duty 10mm</text>
+      
+      <!-- Item 2 -->
+      <g transform="translate(262, 0)">
+        <rect width="235" height="180" rx="8" fill="#131317" stroke="#ffffff" stroke-width="1" stroke-opacity="0.07"/>
+        <circle cx="117" cy="65" r="35" fill="#202028"/>
+        <text x="117" y="72" font-family="'JetBrains Mono', monospace" font-size="20" fill="#94a3b8" text-anchor="middle">🛡️</text>
+        <text x="20" y="130" font-family="'Syne', sans-serif" font-size="13" font-weight="600" fill="#ffffff">Athletic Compression Top</text>
+        <text x="20" y="152" font-family="'JetBrains Mono', monospace" font-size="12" fill="#71717a">Reinforced Seams</text>
+      </g>
+
+      <!-- Item 3 -->
+      <g transform="translate(524, 0)">
+        <rect width="235" height="180" rx="8" fill="#131317" stroke="#ffffff" stroke-width="1" stroke-opacity="0.07"/>
+        <circle cx="117" cy="65" r="35" fill="#202028"/>
+        <text x="117" y="72" font-family="'JetBrains Mono', monospace" font-size="20" fill="#94a3b8" text-anchor="middle">⚙️</text>
+        <text x="20" y="130" font-family="'Syne', sans-serif" font-size="13" font-weight="600" fill="#ffffff">Competition Wrist Wraps</text>
+        <text x="20" y="152" font-family="'JetBrains Mono', monospace" font-size="12" fill="#71717a">Dual Elastic Lock</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Editorial typography labels -->
+  <text x="80" y="100" font-family="'JetBrains Mono', monospace" font-size="12" fill="#64748b" letter-spacing="3">03 / COMMERCE ARCHITECTURE</text>
+  <text x="80" y="125" font-family="'Syne', sans-serif" font-size="28" font-weight="700" fill="#ffffff" letter-spacing="1">AKSHARK FITNESS PLATFORM</text>
+  <text x="1120" y="740" font-family="'JetBrains Mono', monospace" font-size="11" fill="#475569" text-anchor="end" letter-spacing="2">HTML • CSS • JAVASCRIPT</text>
+</svg>
+
